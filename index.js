@@ -19,7 +19,7 @@ function start() {
       finalTeamArray.push(teamName);
       addManager();
     });
-};
+}
 
 function addManager() {
   inquirer
@@ -80,7 +80,7 @@ function addManager() {
       finalTeamArray.push(teamMember);
       addTeamMembers();
     });
-};
+}
 
 function addTeamMembers() {
   inquirer
@@ -336,7 +336,7 @@ function compileTeam() {
     <br><br>
   </div>
 
-  <footer class="page-footer orange">
+  <footer class="page-footer light-blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
